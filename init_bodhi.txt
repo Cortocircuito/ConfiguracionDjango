@@ -1,0 +1,9 @@
+    2  ls
+    3  sh autorun.sh 
+    4  ./VBoxLinuxAdditions.run 
+    5  sudo ./VBoxLinuxAdditions.run 
+    6  sudo apt-get update && sudo apt-get install bodhi-backgrounds-pack
+    7  sudo apt-get update && sudo apt-get dist-upgrade
+sudo apt-get install software-properties-common
+sudo apt-get install ubuntu-restricted-extras
+sudo apt install rar unrar cabextract lzip lunzip arj unace p7zip-rar p7zip

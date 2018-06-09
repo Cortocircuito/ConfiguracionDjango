@@ -1,0 +1,12 @@
+# Intalación de un conjunto de plugins para configuración de emacs
+cd $HOME && rm -rf ./.emacs.d && git clone git@github.com:kpurdon/.emacs.d.git
+# NO deja descargar del repositorio entonces hay que bajarlo manual
+pip install jedi
+(optional) pip install importmagic
+(optional) pip install autopep8
+(optional other web pages) sudo pip install jedi elpy rope
+# Para que funcione bien magit es necesario Emacs >= 25.1
+
+# Para optimizar una imagen para web
+sudo apt-get update && sudo apt-get dist-upgrade
+

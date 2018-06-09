@@ -1,0 +1,27 @@
+sudo apt update 
+sudo apt-get install python-pip python-dev libpq-dev postgresql postgresql-contrib
+
+sudo pip install virtualenv
+mkdir ~/.virtualenvs
+sudo pip install virtualenvwrapper
+
+sudo apt install vim emacs
+
+vim .bashrc
+
+export WORKON_HOME=$HOME/.virtualenvs
+export PROYECT_HOME=$HOME/Devel
+source /usr/local/bin/virtualenvwrapper.sh
+
+source ~/.bashrc 
+
+mkvirtualenv myvirtualenv
+workon myvirtualenv
+pip install django==1.9
+
+sudo su postgres
+psql
+CREATE USER myuser WITH PASSWORD 'mypassword';
+CREATE DATABASE myproject OWNER myuser;
+\q
+
