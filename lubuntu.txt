@@ -7,7 +7,7 @@ git config --list
 sudo ./VBoxLinuxAdditions.run
 sudo apt-get update && sudo apt-get dist-upgrade
 
-sudo apt-get update && sudo apt-get install bodhi-backgrounds-pack
+sudo apt-get install ubuntu-wallpapers*
 
 sudo apt-get install software-properties-common
 sudo apt-get install ubuntu-restricted-extras
